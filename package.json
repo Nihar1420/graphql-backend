@@ -1,0 +1,24 @@
+{
+  "name": "graphql-project-backend",
+  "version": "1.0.0",
+  "description": "Its a node express project with graphql API's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Nihar Ranjan Hota",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.8.1",
+    "nodemon": "^3.0.1"
+  }
+}
